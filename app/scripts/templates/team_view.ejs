@@ -1,0 +1,23 @@
+<div class="overlay"></div>
+<div class="container">
+  <div class="col-md-12">
+    <h2 class="count-title"><%=title%></h2>
+    <h3> <%=brief%></h3>
+    <div class="row">
+      <% _.each(team, function(val) { %>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail team-thumb">
+            <img src="<%= val.thumb%>" alt="Member 1">
+            <div class="zoom-in" data-id="<%=val.id%>" title="Click View detail"></div>
+            <div class="caption">
+              <p class="text-center"><span class="glyphicon glyphicon-user"></span> <%= val.full_name%></p>
+              <p class="text-center"><span class="glyphicon glyphicon-envelope"></span> <%= val.email%></p>
+              <p><%= val.brief%></p>
+            </div>
+          </div>
+        </div>
+      <% }); %>
+  </div>
+</div>
+</div>
+<div id="teamModal" class="modal bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>

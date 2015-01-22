@@ -1,0 +1,42 @@
+{
+    "title": "Our Awesome Team",
+    "brief": "We're a Small, friendly and Talented Team!",
+    "team": [
+        {
+            "id": 1,
+            "title": "ABC 12",
+            "full_name": "Minh Tri 1",
+            "email": "tri@yahoo.com",
+            "phone": "0938919689",
+            "url": "google.com",
+            "thumb": "/images/member_1.jpg",
+            "brief": "lorem lorem lorem lorem lorem lorem lorem",
+            "skills": "design:20, backbone:10, sass:50",
+            "content": "A Balancing the beautiful aroma and colour of our own secret blend of loose leaf teas with the silky texture of steamed milk to produce an experience like no other, it is available in a variety of flavours that’ll leave you refreshed and wanting more! Using our own unique method, we pull a very strong “shot” of tea, creating something similar to an espresso, simply made with tea not coffee. We then pour over perfectly steamed milk to craft a drink that gives you an incredibly refreshing and velvety mouth filling feeling. Our blend of tea has been engineered to work alongside our flavours and milk, to produce that harmonious balance that you can enjoy right until the last sip. Unlike coffee, we don’t need to use tons of flavouring to overcompensate for competing characteristics in the same cup.For vegans, the super health-conscious, or simply as an alternative, we have sugar free flavourings and different milk options."
+        },
+        {
+            "id": 2,
+            "title": "Block Design 12",
+            "full_name": "Minh Tri 2",
+            "email": "tri@yahoo.com",
+            "phone": "0938919689",
+            "url": "google.com",
+            "thumb": "/images/member_2.jpg",
+            "brief": "lorem lorem lorem lorem lorem lorem lorem",
+            "skills": "design:20, backbone:10, sass:50",
+            "content": "B Balancing the beautiful aroma and colour of our own secret blend of loose leaf teas with the silky texture of steamed milk to produce an experience like no other, it is available in a variety of flavours that’ll leave you refreshed and wanting more! Using our own unique method, we pull a very strong “shot” of tea, creating something similar to an espresso, simply made with tea not coffee. We then pour over perfectly steamed milk to craft a drink that gives you an incredibly refreshing and velvety mouth filling feeling. Our blend of tea has been engineered to work alongside our flavours and milk, to produce that harmonious balance that you can enjoy right until the last sip. Unlike coffee, we don’t need to use tons of flavouring to overcompensate for competing characteristics in the same cup.For vegans, the super health-conscious, or simply as an alternative, we have sugar free flavourings and different milk options."
+        },
+        {
+            "id": 3,
+            "title": "ABC 32",
+            "full_name": "Minh Tri 3",
+            "email": "tri@yahoo.com",
+            "phone": "0938919689",
+            "url": "google.com",
+            "thumb": "/images/member_3.jpg",
+            "brief": "lorem lorem lorem lorem lorem lorem lorem",
+            "skills": "design:20, backbone:10, sass:50",
+            "content": "C Balancing the beautiful aroma and colour of our own secret blend of loose leaf teas with the silky texture of steamed milk to produce an experience like no other, it is available in a variety of flavours that’ll leave you refreshed and wanting more! Using our own unique method, we pull a very strong “shot” of tea, creating something similar to an espresso, simply made with tea not coffee. We then pour over perfectly steamed milk to craft a drink that gives you an incredibly refreshing and velvety mouth filling feeling. Our blend of tea has been engineered to work alongside our flavours and milk, to produce that harmonious balance that you can enjoy right until the last sip. Unlike coffee, we don’t need to use tons of flavouring to overcompensate for competing characteristics in the same cup.For vegans, the super health-conscious, or simply as an alternative, we have sugar free flavourings and different milk options."
+        }
+    ]
+}

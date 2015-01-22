@@ -1,0 +1,10 @@
+{
+    "title" : "Services",
+    "brief" : "Our creative services",
+    "listing" : [
+        { "title": "Creative Design", "type": "arrow-left", "thumb": "/images/lamp-ico.png","content": "lorem lorem lorem lorem lorem lorem lorem"},
+        { "title": "Web Development", "type": "arrow-left", "thumb": "/images/mac-ico.png","content": "lorem lorem lorem lorem lorem lorem lorem"},
+        { "title": "Responsive Design", "type": "arrow-right","thumb": "/images/planet-ico.png","content": "lorem lorem lorem lorem lorem lorem lorem"},
+        { "title": "Printing", "type": "arrow-right", "thumb": "/images/print-ico.png","content": "lorem lorem lorem lorem lorem lorem lorem"}
+    ]
+}

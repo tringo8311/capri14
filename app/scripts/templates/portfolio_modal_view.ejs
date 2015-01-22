@@ -1,0 +1,51 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h4 class="modal-title"><%= title %> / <%= type_name %></h4>
+    </div>
+    <div class="modal-body">
+        <div class="row relative">
+          <div class="pagination col-md-4">
+            <div class="btn-group btn-group-justified">
+              <a href="#" class="btn btn-default prev" role="button">Prev</a>
+              <a href="#" class="btn btn-default next" role="button">Next</a>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div id="portfolioCarousel<%=id %>" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <% _.each(slideshow, function(slide, indx){ %>
+                    <li class="<%= slide.active ? "active" : "" %>" data-target="#portfolioCarousel<%=id %>" data-slide-to="<%=indx%>"></li>
+                    <% }); %>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <% _.each(slideshow, function(slide, indx){ %>
+                    <div class="item <%= slide.active ? "active" : "" %>">
+                        <div class="fill">
+                            <img src="<%= slide.src%>" alt=""/>
+                        </div>
+                    </div>
+                    <% }); %>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="height: 100%;">
+            <p class="text-left"><strong>Author</strong>: <%= author %></p>
+            <p class="text-left"><strong>Release Date</strong>: <%= release_date %></p>
+            <p><strong>Skills</strong>: <% skills.split(",").map(function(label) {%><label class="label label-info"><%= label %></label> <%}); %></p>
+            <p><strong>Website</strong>: <%= url %></p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="content">
+          <p><%= content %></p>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="col-md-12">
+  <h2 class="count-title"><%=title%></h2>
+  <h4><%=brief%></h4>
+  <div class="all-services">
+      <div class="services-wrap-holder">
+        <% _.each(listing, function(val) { %>
+          <% if (val.type == "arrow-right") { %>
+          <div class="col-md-3 image-hold service-holder <%=val.type%>">
+            <img width="" height="" alt="lamp-ico" class="" src="<%=val.thumb%>">
+          </div>
+          <div class="col-md-3 service-holder text-hold">
+            <h3><%=val.title%></h3>
+            <p><%=val.content%></p>
+          </div>
+          <% } else { %>
+          <div class="col-md-3 service-holder text-hold">
+            <h3><%=val.title%></h3>
+            <p><%=val.content%></p>
+          </div>
+          <div class="col-md-3 image-hold service-holder <%=val.type%>">
+            <img width="" height="" alt="lamp-ico" class="" src="<%=val.thumb%>">
+          </div>
+          <% }; %>
+        <% }); %>
+      </div>
+      <div class="browser-os clearfix">
+          <a class="browser chrome" href="/chrome" title="Browser Chrome" rel="tooltip" data-original-title="Browser Chrome">Chrome</a>
+          <a class="browser firefox" href="/firefox" title="Browser Firefox" rel="tooltip" data-original-title="">Firefox</a>
+          <a class="browser opera" href="/opera" title="Browser Opera" rel="tooltip" data-original-title="">Opera</a>
+          <a class="browser safari" href="/safari" title="Browser Safari" rel="tooltip" data-original-title="">Safari</a>
+          <a class="browser ie" href="/ie" title="Browser Internet Explorer" rel="tooltip" data-original-title="">Internet Explorer</a>
+          <a class="os android" href="/android" title="Android OS" rel="tooltip" data-original-title="">Android</a>
+          <a class="os window-phone" href="/window" title="Window Phone" rel="tooltip" data-original-title="">Window Phone</a>
+          <a class="os ios" href="/ios" title="iOS" rel="tooltip" data-original-title="">IOS</a>
+          <a class="os blackberry" href="/blackberry" title="Blackberry" rel="tooltip" data-original-title="">Blackberry</a>
+      </div>
+  </div>
+</div>
