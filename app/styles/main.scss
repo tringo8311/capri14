@@ -2,7 +2,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import "variables";
 @import 'sass-bootstrap/lib/bootstrap';
-@import "compass/css3/transform-legacy";
+/*@import "compass/css3/transform-legacy";
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 @import "compass/css3/transition";
@@ -114,7 +114,7 @@ h2.count-title:before {
     position: absolute;
     top: 40%;
     left: 50%;
-    @include translate(-50%);
+    /*@include translate(-50%);*/
 
     .element {
       position: absolute;
@@ -122,10 +122,10 @@ h2.count-title:before {
       width: 190px;
       height: 190px;
       background-color: rgba(255, 255, 255, 0.2);
-      @include rotate(135deg);
+      /*@include rotate(135deg);
       @include border-radius(999px);
       @include transition-property(all);
-      @include transition-duration(0.3s);
+      @include transition-duration(0.3s);*/
     }
     .element.item-3,.element.item-6,.element.item-10 {
       width: 49px;
@@ -292,7 +292,7 @@ h2.count-title:before {
       margin: 5px;
       display: inline-block;
       background-color: #fff;
-      @include border-radius(20px);
+      /*@include border-radius(20px);*/
       border: 1px solid $brand-primary;
       text-indent: -999em;
     }
@@ -439,7 +439,7 @@ h2.count-title:before {
     position: relative;
     overflow: hidden;
     img{
-      @include border-radius(999px);
+      /*@include border-radius(999px);*/
       margin-bottom:10px;
     }
     .zoom-in{
@@ -447,15 +447,15 @@ h2.count-title:before {
       background-image: url(../images/zoom-posts.png);
       background-position: center 50%;
       background-repeat: no-repeat;
-      @include border-radius(4px);
+      /*@include border-radius(4px);*/
       left: 0;
       opacity: 0;
       position: absolute;
       top: 0;
       cursor: pointer;
-      @include transition-property(all);
+      /*@include transition-property(all);
       @include transition-duration(1s);
-      @include transition-timing-function(rotate);
+      @include transition-timing-function(rotate);*/
       margin-top: -100px;
     }
     &:hover .zoom-in{
@@ -485,15 +485,15 @@ h2.count-title:before {
       background-image: url(../images/zoom-posts.png);
       background-position: center 35%;
       background-repeat: no-repeat;
-      @include border-radius(4px);
+      /*@include border-radius(4px);*/
       left: 0;
       opacity: 0;
       position: absolute;
       top: 0;
       cursor: pointer;
-      @include transition-property(all);
+      /*@include transition-property(all);
       @include transition-duration(1s);
-      @include transition-timing-function(rotate);
+      @include transition-timing-function(rotate);*/
       margin-top: -100px;
     }
   }
@@ -511,9 +511,9 @@ h2.count-title:before {
   right: 0px;
   top: 20px;
   ul {
-    @include border-radius(5px 5px 5px 5px);
+    /*@include border-radius(5px 5px 5px 5px);*/
     li {
-      @include background-image(linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%));
+      /*@include background-image(linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%));*/
       display: initial;
       float: left;
       list-style: none outside none;
